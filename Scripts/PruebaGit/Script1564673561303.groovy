@@ -15,7 +15,7 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('http://ayni.dev.interbank.per/login?returnUrl=%2F')
+WebUI.navigateToUrl('http://ayni.dev.interbank.per/')
 
 WebUI.setText(findTestObject('Object Repository/Page_Interbank AyniBot/input_Iniciar Sesin_username'), 'T00002')
 
