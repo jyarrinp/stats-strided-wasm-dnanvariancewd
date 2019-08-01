@@ -21,11 +21,25 @@ WebUI.setText(findTestObject('Object Repository/Page_Interbank AyniBot/input_Ini
 
 WebUI.setEncryptedText(findTestObject('Object Repository/Page_Interbank AyniBot/input_Usuario_password'), 'iJjxP/bsvFDeSZ5Z57jzAA==')
 
+WebUI.click(findTestObject('Object Repository/Page_Interbank AyniBot/mat-card-actions_Ingresar'))
+
 WebUI.click(findTestObject('Object Repository/Page_Interbank AyniBot/button_Ingresar'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Interbank AyniBot/input_(nuevo)_content'), 'BLOQUEO')
+WebUI.setText(findTestObject('Object Repository/Page_Interbank AyniBot/input_(nuevo)_content'), 'coordinacion')
 
 WebUI.click(findTestObject('Object Repository/Page_Interbank AyniBot/button_send'))
+
+WebUI.click(findTestObject('Object Repository/Page_Interbank AyniBot/button_ACTUALIZAR DATOS'))
+
+WebUI.click(findTestObject('Object Repository/Page_Interbank AyniBot/button_RETROCEDER'))
+
+WebUI.click(findTestObject('Object Repository/Page_Interbank AyniBot/button_COORDINACIN'))
+
+WebUI.click(findTestObject('Object Repository/Page_Interbank AyniBot/button_NO'))
+
+WebUI.click(findTestObject('Object Repository/Page_Interbank AyniBot/button_FINALIZAR'))
+
+WebUI.click(findTestObject('Object Repository/Page_Interbank AyniBot/button_S'))
 
 WebUI.closeBrowser()
 
